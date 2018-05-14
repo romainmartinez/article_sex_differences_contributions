@@ -1,0 +1,55 @@
+# Results
+
+## General Description of Joint Contribution to Box Lifting
+Participants used mainly their distal joints (wrist and elbow) during the pulling and early lifting phases.
+Then, glenohumeral, sternoclavicular and acromioclavicular contributions increased during the second half of the lifting phase and plateaued during the dropping phase (Fig.\ 3).
+On average, pelvis and trunk have low contributions to the box height during the pulling (1%), lifting (2%) and dropping phases (8%).
+The contribution of the sternoclavicular and acromioclavicular joints increases over time, starting at -3% (*i.e., shoulder depression*) on the pulling phase, to 11% on the lifting phase and 33% on the dropping phase.
+The contribution of the glenohumeral joint also increases over time, starting at 12% on the pulling phase, to 28% on the lifting phase and 75% on the dropping phase.
+The contribution of the wrist and elbow joints starts at 14% during the pulling phase, peaks at 41% during the lifting phase and decreases at 7% during the dropping phase.
+
+[Insert figure\ 3 here]
+
+<!-- ------ -->
+
+## Sex and Mass Effect on Joint Contribution
+
+### Sex-Mass Interaction
+There was a sex-mass interaction  (Fig.\ 4, upper panel) on the contribution of the glenohumeral joint from 55% to 72% of the trial ($F(1, 52)=12.7, p<0.001$) and wrist and elbow joints from 63% to 69% of the trial ($F(1, 52)=10.4, p=0.0161$).
+
+### Sex and Mass Main effect
+There was no main effect of sex on the contribution of the selected joints (Fig.\ 4), lower panel) but significant main effects of the mass were identified on the trunk-pelvis, glenohumeral and wrist-elbow joints (Fig.\ 4), middle panel).
+The contribution of the pelvis and trunk was greater when men and women handled the heaviest mass from 45% to 99% of the trial ($F(1, 52)=57.6, p<0.001$).
+For the glenohumeral joint, a significant main effect of mass was observed from 1% to 8% of the trial ($F(1, 52)=21.3, p=0.0027$) and from 44% to 93% ($F(1, 52)=20.0, p<0.001$), suggesting a greater glenohumeral contribution for the 6\ kg box.
+The wrist and elbow joints contributed more when participants handled the 12\ kg mass from 1% to 7% of the trial ($F(1, 52)=22.3, p=0.0076$), from 44% to 53% ($F(1, 52)=11.0, p=0.0035$) and from 61% to 72% ($F(1, 52)=11.3, p<0.001$).
+The main effect of mass for the wrist, elbow and glenohumeral joints are uninterpretable on the range of the concurrently significant interactions (Fig.\ 4), hatched lines on the lower panel).
+
+[Insert figure\ 4 here]
+
+### Post-Hoc Analysis
+When comparing men at 12\ kg against men at 6\ kg and women at 12\ kg against women at 6\ kg in the time periods where significant sex-mass interactions were observed, differences appear only in women (Fig.\ 5).
+These differences occur on the glenohumeral joint (from 54% to 71% of the trial, $F(1, 160)=7.5, p<0.001$) with a contribution of about 20% higher with 6\ kg compared to 12\ kg, and the wrist and elbow joints (from 62% to 68% of the trial, $F(1, 160)=-5.6, p<0.001$) with a contribution of about 9% higher with 12\ kg compared to 6\ kg.
+
+[Insert figure\ 5 here]
+
+In line with this finding, sex-related differences revealed by the post-hoc analysis are mainly dependent of the mass lifted by women (Fig.\ 6).
+On the glenohumeral joint, these differences have an opposite sign whether women lifted 6 or 12\ kg.
+Indeed, when comparing women at 6\ kg against men at 6\ kg or 12\ kg, the contribution of the glenohumeral joint is approximately 14% higher in women compared to men (from 54% to 71% of the trial, $F(1, 160)=-11, p<0.001$ and $F(1, 160)=-14.3, p<0.001$ for men at 6 and 12\ kg, respectively).
+Whereas this contribution is approximately 10% higher in men compared to women when comparing women at 12\ kg against men at 6\ kg (from 59% to 71% of the trial, $F(1, 160)=9.3, p=0.0086$) or 12\ kg (from 63% to 68% of the trial, $F(1, 160)=5.8, p=0.0395$).
+On the wrist and elbow joints, post-hoc analysis (Fig.\ 6) revealed sex-related differences only when women lifted a 12\ kg box.
+These differences appeared against men at 6\ kg (from 62% to 68% of the trial, $F(1, 160)=-4.2, p<0.001$) or 12\ kg (from 62% to 68% of the trial, $F(1, 160)=-3.8, p<0.001$), with a contribution of about 8% higher in women compared to men.
+
+[Insert figure\ 6 here]
+
+<!-- ------ -->
+## Correlation of the Joint Contribution Against the Normalized Mass
+There was no significant correlation between the contribution of the glenohumeral, wrist and elbow joints and the relative mass of the box (Fig.\ 7) at 6\ kg for men (wrist and elbow joint: $r(160)=-.06,p=.60$, glenohumeral joint: $r(160)=.01,p=.94$) and women (wrist and elbow joint: $r(160)=.02,p=.89$, glenohumeral joint: $r(160)=.04,p=.70$).
+This correlation was also non-significant at 12\ kg in men (wrist and elbow joint: $r(160)=.08,p=.48$, glenohumeral joint: $r(160)=-.15,p=.18$).
+However, there was a positive correlation at 12\ kg in women on the wrist and elbow joints ($r(160)=.42,p<.001$) and a negative correlation on the glenohumeral joint ($r(160)=-.48,p<.001$). 
+Since there was no sex-mass interaction on the trunk, sternoclavicular and acromioclavicular joints, correlations on these joints are not reported.
+Correlation are reported if there is a sex-mass interaction (trunk, sternoclavicular and acromioclavicular joints are not reported).
+Thus, when the mass of the box represents a greater proportion of the participant's mass (the participant is lighter or the box is heavier), there is no change among men while women use more the wrist and elbow joints and less the glenohumeral joint.
+
+[Insert figure\ 7 here]
+
+<!-- ------ -->

@@ -1,0 +1,97 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# Methods
+
+```{r load-data, include=FALSE}
+anthropo <- readRDS('inputs/anthropo.rds')
+```
+
+## Participants
+In total, `r anthropo$number[2]` women (`r anthropo$mean.age[2]`\ $\pm$\ `r anthropo$std.age[2]`\ years; `r anthropo$mean.height[2]`\ $\pm$\ `r anthropo$std.height[2]`\ cm; `r anthropo$mean.weight[2]`\ $\pm$\ `r anthropo$std.weight[2]`\ kg)
+and `r anthropo$number[1]` men (`r anthropo$mean.age[1]`\ $\pm$\ `r anthropo$std.age[1]`\ years; `r anthropo$mean.height[1]`\ $\pm$\ `r anthropo$std.height[1]`\ cm; `r anthropo$mean.weight[1]`\ $\pm$\ `r anthropo$std.weight[1]`\ kg) took part in this study.
+None of the participants were ever diagnosed with musculoskeletal disorders of the upper limbs or reported significant disability related to their upper extremity (Disabilities of the Arm, Shoulder and Hand scores >\ 23, $[$@hudak_development_1996$]$) or their back (Quebec Back Pain Disability Scale score <\ 3, $[$@kopec_quebec_1995$]$).
+Readiness for physical activity was confirmed in all participants (Physical Activity Readiness Questionnaire, $[$@thomas_revision_1992$]$).
+The participants were fully advised of the experimental content, and each of them provided a written informed consent.
+The study was approved by the University of Montreal Ethics Committee (No.\ 15-016-CERES-P).
+
+
+## Experimental Procedures
+A static trial and setup movements in line with previous recommendations [@begon_effects_2007; @michaud_determining_2016] were acquired to locate the joint centres and personalize a kinematic model [@jackson_improvements_2012].
+Then, participants moved an instrumented box between two adjustable shelves located directly in front of them.
+Shelf heights were adjusted at the hip and eye levels of each participant.
+The box (height\ $\times$\ width\ $\times$\ length: 0.08\ m\ $\times$\ 0.35\ m\ $\times$\ 0.50\ m) had two symmetrical handlebars to standardise the grip.
+We set the box mass at 6\ kg and 12\ kg, which corresponds to the maximum acceptable mass in our configuration (box length: 0.50\ m, vertical distance of lift: 76\ cm, frequency of two boxes per minute) for 90% of female and male respectively [@snook_design_1991].
+Each participant used the two masses (6 and 12\ kg).
+The right handle of the box was instrumented with a 6-degree-of-freedom force sensor (Sensix SH2653-1106B3, Poitiers, France), used to determine the beginning and end of the trial in the present study.
+
+
+Participants were instructed to move the box from the hip to the eye level at a comfortable speed and to minimise the movements of their lower limbs.
+No other instructions on work technique were given.
+Three repetitions of movements were performed for each mass (three trials with 6\ kg and three with 12\ kg) in a random order with 30\ s rest periods in-between.
+Additional recovery time was allowed when needed.
+The lifting movement was split into three phases, namely the pulling (1-20% of the trial duration), lifting (21-60%) and dropping (61-100%) phases (Fig.\ 1).
+
+[Insert figure\ 1 here]
+
+## Data Collection
+Movement kinematics were recorded with an 18 VICON^TM^ camera motion analysis system (Oxford Metrics Ltd, Oxford, UK) at a sampling rate of 100\ Hz.
+In line with the kinematic shoulder model of @jackson_improvements_2012, 43 reflective markers were placed on the pelvis, trunk and right upper limb (Fig.\ 2): pelvis\ (4 markers), thorax\ (6), clavicle\ (6), scapula\ (8), upper arm\ (7), forearm\ (4), wrist\ (4) and hand\ (4).
+This marker set includes anatomical markers located on bony landmarks for the model definition and technical markers located in areas that minimised skin movement artifacts for joint kinematics estimation during lifting trials.
+Assuming that the left and right sides of the upper body behaved symmetrically during a symmetrical box lifting task [@nielsen_muscular_1998], only the right side of the participant was evaluated.
+
+[Insert figure\ 2 here]
+
+## Data Processing
+A 25 degree-of-freedom (DoF) kinematic model was personalized using the static trial (pelvis and trunk [6\ DoF each], sternoclavicular and acromioclavicular [3\ DoF each], glenohumeral [3\ DoF], elbow and wrist [2\ DoF each]).
+Centres of rotation of the pelvis, trunk, and wrist joints were located using the SCoRE algorithm [@ehrig_survey_2006], while bony landmarks were used for locating sternoclavicular, acromioclavicular and glenohumeral joints, in agreement with recent recommendations [@michaud_determining_2016].
+Elbow flexion and prosupination axes were defined using the SARA algorithm [@ehrig_survey_2007].
+The reference configuration ($q_{i}^{REF}=0$) of the pelvis, trunk, sternoclavicular and acromioclavicular were concordant with the ISB recommendations [@wu_isb_2005].
+The reference configurations of the glenohumeral, elbow and wrist joints were defined such that:
+
+- glenohumeral and elbow longitudinal local axes aligned with that of the trunk;
+- glenohumeral, elbow and wrist mediolateral local axes aligned with that of the scapula.
+
+To overcome the covariance within each joint, lifting techniques were quantified through the individual joint contribution to the box height.
+The algorithm\ \@ref(thm:algo), inspired by the recent study of @robert-lachaine_elucidating_2015 on scapulohumeral rhythm was applied.
+The contribution of each joint ($H|_{i}$) to the box height was computed by successively resetting joint angles to their reference orientations ($q_{i}^{REF}$).
+Joint contribution refers to the amount of box height achieved by each group of joints, namely pelvis-trunk; sternoclavicular-acromioclavicular joints; glenohumeral joint; and elbow-wrist joints (Algorithm\ \@ref(thm:algo)).
+
+```{theorem, algo, name="joint contribution", echo = T}
+Calculation of the pelvis-trunk (PE/TR), sternoclavicular-acromioclavicular (SC/AC), glenohumeral (GH) and elbow-wrist (WR/EL) contributions. At time $t$:
+
+\begin{equation*}
+\begin{split}
+\begin{aligned}
+\text{calculate height}(\textbf{q}) & =H|_{WR/EL+GH+SC/AC+TR/PE} && (1)\\
+q_{WR/EL}  & = q_{WR/EL}^{REF} && \\
+\text{calculate height}(\textbf{q}) & =H|_{GH+SC/AC+TR/PE} && (2)\\
+H|_{WR/EL} & =(1) - (2) && \\
+q_{GH}  & = q_{GH}^{REF} && \\
+\text{calculate height}(\textbf{q}) & =H|_{SC/AC+TR/PE} && (3)\\
+H|_{GH} & =(2) - (3) && \\
+q_{SC/AC}  & = q_{SC/AC}^{REF} && \\
+\text{calculate height}(\textbf{q}) & =H|_{TR/PE} && (4)\\
+H|_{SC/AC} & =(3) - (4) && \\
+q_{TR/PE}  & = q_{TR/PE}^{REF} && \\
+\text{calculate height}(\textbf{q}) & =0 && (5)\\
+H|_{TR/PE} & =(4) - (5) &&
+\end{aligned}
+\end{split}
+\end{equation*}
+
+```
+
+As the heights of the shelves were adjusted according to the anthropometry of each participant, box height was normalised to participant's hip (0%) and eye (100%) levels to compare participants' joint contribution.
+Data were delimited so that each trial began and ended when participants first applied, and first ceased to apply force on box handles, respectively.
+Then each trial was time normalized to 1000\ data points.
+
+## Statistics
+To avoid reducing the joints' contribution to a discrete value, contributions of men’s and women’s joints were compared using statistical parametric mapping with the `spm1d` package [@pataky_generalized_2010].
+A two-way ANOVA ($\text{sex} \times \text{mass}$, with repeated measures on mass) was applied for each group of joints.
+Sex-related differences in joint contribution were then compared using two-sample t-tests for the same absolute box mass (women at 6\ kg *vs.* men at 6\ kg and women at 12\ kg *vs.* men at 12\ kg) and relative box mass(women at 6\ kg *vs.* men at 12\ kg and women at 12\ kg *vs.* men at 6\ kg).
+The effect of mass on joint contributions for each sex was also analysed with paired-sample t-tests.
+Bonferroni corrections were applied across the six post-hoc tests ($p = \frac{0.05}{6}=0.0083$).
+A Pearson's linear correlation coefficient was finally computed between the mean joint contribution of men and women against the relative mass of the box (box mass divided by participant mass).

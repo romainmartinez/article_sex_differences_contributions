@@ -1,0 +1,39 @@
+---
+title: Sex differences in upper limb 3D joint contributions during a lifting task
+author: "Romain Martinez^a^*, Jason Bouffard^a^, Benjamin Michaud^a^, André Plamondon^b^, Julie N. Côté^c^ and Mickaël Begon^a^"
+date: |
+  ^a^Laboratoire de Simulation et Modélisation du Mouvement, Département de Kinésiologie, Université de Montréal, 1700 Rue Jacques-Tétreault, Laval, Québec, Canada;\
+  ^b^Institut de Recherche Robert Sauvé en Santé et Sécurité du Travail (<span style="font-variant:small-caps;">irsst</span>\), 505 Boul. de Maisonneuve Ouest, Montréal, Québec, Canada;\
+  ^c^McGill University, Kinesiology and Physical Education, 475 Pine Avenue West, Montréal, Québec, Canada\
+  *Corresponding author. Email: martinez.staps@gmail.com
+bibliography: bib/library.bib
+output:
+  bookdown::pdf_book:
+    includes:
+      in_header: latex/preamble.tex
+    toc: no
+  bookdown::word_document2:
+    reference_docx: template_TF.docx
+indent: true
+fig_caption: yes
+toc: no
+fontsize: 12pt
+linestretch: 1.5
+link-citations: yes
+number_sectons: yes
+documentclass: article
+papersize: letter
+site: bookdown::bookdown_site
+csl: chicago-author-date.csl
+---
+```{r setup, include = F}
+knitr::opts_chunk$set(echo = F, warning = F, message = F)
+```
+
+# Acknowledgements
+The authors wish to thank Marjolaine Corbeil, Landry Desmoulins and Damien Leflem for their assistance in data collection.
+
+# Funding
+This work was supported by the Institut de Recherche Robert-Sauvé en Santé et Sécurité du Travail (IRSST) under grant number 2014-0045.
+
+# Word count

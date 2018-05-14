@@ -1,0 +1,85 @@
+# Discussion
+
+## Main Finding
+
+In accordance with our hypothesis, our results support the perspective of a sex-specific joint contribution strategy of the upper limb during a lifting task.
+In particular, this strategy seems to be influenced by the mass lifted by women.
+At 6\ kg, women proportionally used more their glenohumeral joint than men.
+However, sex differences for this joint contribution were in the opposite direction at 12\ kg, where men’s glenohumeral joint contributed more than women’s.
+This decrease in women’s glenohumeral contribution for the higher mass was compensated with the wrist and elbow joints.
+Similar differences appeared when normalizing the mass of the box by the participant's mass.
+Most of the reported differences occurred during the dropping phase, when the arms are at shoulder level and above.
+
+<!-- ------ -->
+
+## Description of the lifting technique
+
+### General Description
+Our results show that participants had more contribution with their distal joints (wrist and elbow) during the first half of the movement while proximal joints (trunk, pelvis, sternoclavicular and acromioclavicular joints but particularly the glenohumeral joint) contributed more during the second half of the movement.
+We can hypothesise that participants use their distal joints to bring the box closer to the trunk during the pulling and the first half of the lifting phase, while the proximal joints are used to initiate and finish the arm elevation during the rest of the movement.
+Thus, there is a different joint contribution strategy depending on the phase of the movement.
+
+### Sex-Related Differences
+Despite the general joint strategy described above, our results highlight sex-related differences in lifting strategy.
+The glehumeral joint contributes more when women lift a 6\ kg box and less when they lift a 12\ kg box, compared to men at either 6 or 12\ kg. 
+The reduction of the glenohumeral contribution with a 12\ kg box in women is compensated by a higher contribution of the wrist and elbow joints.
+
+Other studies evaluating sex differences on participants’ joint coordination during manual handling focused on the back and lower limb.
+For instance, differences in lower limb joint coordination patterns were found, with a more sequential pattern of interjoint coordination in women than in men with both absolute [@plamondon_sex_2014] and relative loads [@plamondon_difference_2017].
+It is difficult to directly compare our results with those previous studies as different levels of expertise, joints, metrics and lifting height were studied.
+However, it is interesting to highlight that sex differences observed in the current study were only apparent when the box was higher than participant’s shoulder height, a situation not studied previously. Taken together, these studies suggest sex difference in lower-limb and trunk coordination when a box is lifted from the floor and in upper-limb coordination when the box is handled above shoulder level.
+
+<!-- ------ -->
+
+## Load May Explain Sex-Related Differences
+
+Mass-related comparisons have demonstrated that women's contributions of the glenohumeral, wrist and elbow joints are more affected by a change in the box mass from 6 to 12\ kg than men's.
+Sex-related comparisons were made with different mass ratios ($\frac{\text{mass lifted by women}}{\text{mass lifted by men}}$): 50% (men at 12\ kg *vs.* women at 6\ kg), 100% (men at 6\ kg *vs.* women at 6\ kg and men at 12\ kg *vs.* women at 12\ kg) and 200% (men at 6\ kg *vs.* 12\ kg).
+However, it appears that the absolute mass manipulated by women was more important than those mass ratios to explain observed sex differences in joint contribution.
+When women lifted the 6\ kg box, they used more their glenohumeral joint than men (mass ratios: 50% and 100%).
+When they lifted the 12\ kg box, their glenohumeral joint contributed less than men (mass ratios: 100% and 200%).
+This effect was not observed by @plamondon_sex_2014 and @plamondon_difference_2017 studying the lower limb and trunk coordination, who found similar sex-related differences between equivalent absolute and relative load. However, these results are reminiscent of those of @yehoyakim_relationship_2016 who found, in their study on women only, that the weight lifted had an impact on lifting coordination patterns.
+Together, these studies suggest that the guidelines on lifted weight have an especially important potential to affect women, more so than men.
+
+Women may indeed be more influenced by the 6\ kg variation (between 12 and 6\ kg) than men because it represents a higher fraction of their body mass (10% in our sample) than men (8%).
+When lifting the 12\ kg box, women are closer to their maximal muscle capacity.
+Moreover, significant correlations between the joint contribution and the relative mass of the box appear only in women lifting a 12\ kg box, where heavier, and probably stronger [@barbat-artigas_sexspecific_2013] women use more the wrist and elbow joints and less the glenohumeral joint.
+
+It is likely that kinematic adaptations occur in a non-linear manner with increased load: more important adaptations may occur when efforts are closer to maximal capacity.
+In line with this idea, it has been suggested that increasing the lifting load may change the coordination to reduce the required muscular effort [@burgess-limerick_selfselected_1995].
+@yehoyakim_relationship_2016 have also highlighted the importance of strength on kinematic coordination.
+They showed a more coordinated movement between the hip and the back during box lifting in women with higher strength capabilities.
+If the fact that the heaviest box being closer to women’s maximal force explains the sex-specific adaptations with increased box mass, it would be expected that similar adaptations would also be observed when men handle objects heavier than 12\ kg.
+However, even a with a 18\ kg box, such an adaptation was not observed in our male subjects (see supplementary material).
+To fully understand this issue, it would be interesting to measure men’s and women’s maximal strength and verify at which relative load changes in joint contribution can be observed for each sex.
+Alternatively, the assessment of the relationship between electromyographic activity (normalized to maximal muscle contraction) generated during lifting and the changes in joint contribution could be informative.
+While sex differences in strength could explain the lower contribution of the glenohumeral joint when women lift the 12\ kg box as exposed above, it can hardly cause the higher contribution of this joint when they lift the 6\ kg box.
+This pattern of result suggests that other factors also contribute to the different motor strategies when men and women lift boxes above their shoulders.
+@anders_activation_2004 demonstrated that women showed less activation of agonist muscles and greater activation of synergist muscles than men, during an isometric shoulder task to fatigue.
+Muscular coordination and a different shoulder-elbow strength ratio could play a role in explaining sex differences in motor behavior.
+
+<!-- ------ -->
+
+## Joint Contribution and Upper Limb Injuries
+
+The reported differences occur systematically when the box is near or above the shoulder level, *i.e.* when the glenohumeral contribution is the highest.
+The overhead posture is considered as a risk factor for shoulder injuries [@grieve_overhead_2008] and the leading cause of rotator cuff tears [@vecchio_shoulder_1995].
+Epidemiological studies have shown that women work more frequently and during longer times with their hands above shoulder height than men [@dahlberg_work_2004].
+In addition to longer working time in overhead position, we showed that women reach this position with a technique that mainly involves the glenohumeral joint with light masses and the wrist and elbow joints with heavier masses. In addition, women have more glenohumeral joint laxity and instability than men [@borsa_patterns_2000].
+This hypermobility may increase the risk of subacromial impingement as the subacromial space width is smaller in women [@graichen_sexspecific_2001]. Further work is needed to assess the sex-related differences in subacromial space during lifting tasks.
+We suggest that musculoskeletal modeling of the upper limb during a lifting task could help to understand the impact of those kinematic differences on the load applied to the upper limb structures.
+
+<!-- ------ -->
+
+## Ergonomics Applications
+The kinematic analysis presented in this paper on joint contributions has enabled the evaluation of the upper limbs to the overall lifting technique.
+This parameter could be an ergonomic tool to identify poor techniques, which can lead to shoulder injuries.
+In this study, joint contribution has been determined with a motion analysis system. However, portable tools can be used such as inertial measurement units [@kim_performance_2013] to quantify physical exposures in the workplace.
+
+While it is recognized that the work environment is often not adapted to women considering anthropometric sex differences [@pheasant_bodyspace_2006], we designed our experimental task to avoid such bias and the difference in joint contribution was still significant.
+It is important to remember that sex differences occur mostly above shoulder levels in our study. It is safe to say that those differences would probably be amplified in the workplace, where shelves would be proportionally higher for women.
+
+Sex differences in health must be regarded as a multicausal phenomenon and work technique is one of the many factors which contribute in a complex interaction to explain sex-related differences in injuries [@cote_critical_2012].
+The present study brings more depth to upper limbs motion analysis and demonstrates that overhead lifting techniques differ between men and women.
+The implications of such results argue that lifting technique should be considered with care during lifting task, especially in women who tend to work more frequently in overhead posture [@dahlberg_work_2004].
+A careful consideration of sex during ergonomic interventions and research studies focusing on the upper limb are also recommended.

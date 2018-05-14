@@ -1,0 +1,21 @@
+# Introduction
+
+Musculoskeletal disorders represent the most common form of work disability [@europeanagencyforsafetyandhealthatwork_osh_2010; @punnett_workrelated_2004; @usdepartmentoflabor_nonfatal_2016].
+Shoulder disorders are the first cause of work-related musculoskeletal disorders after back pain, with a reported prevalence up to 35% in Europe [@luime_prevalence_2004; @urwin_estimating_1998].
+The occurrence of shoulder injuries has been associated with work factors such as overhead work, heavy lifting, repetitive movements and poor postures [@bernard_musculoskeletal_1997; @grieve_overhead_2008; @latko_crosssectional_1999], but also with individual risk factors such as sex [@hakkanen_job_2001].
+While women are underrepresented in manual material handling work, the prevalence of their upper extremity injuries is greater than in men [@dezwart_gender_2001; @nordander_gender_2008; @punnett_workrelated_2000].
+
+Sex differences in the onset of musculoskeletal disorders are commonly associated to sex-specific physical differences
+Anthropometry, muscular histological composition and strength differences are among the most cited, especially for the upper limb (see @cote_critical_2012 for a review).
+Differences in motor behavior such as work technique between women and men have also been identified and may contribute to the increased risk of upper limb musculoskeletal disorders among women [@cote_critical_2012].
+However, a sex difference in work technique is rarely addressed in the literature, even if it is well known that it represents a risk factor associated with musculoskeletal disorders [@kilbom_work_1987].
+Work techniques are commonly simplified by a set of postures adopted during a task [@potvin_occupational_2008].
+This definition is insufficient to understand the biomechanics of a dynamic movement.
+Instead, joint coordination has been suggested as a key element for the description of lifting techniques [@burgess-limerick_selfselected_1995].
+Previous studies identified sex differences in trunk and lower limb joint coordination during manual handling tasks with absolute [@plamondon_sex_2014] and relative loads [@plamondon_difference_2017].
+More particularly, work techniques were similar among men and women in terms of task duration and cumulative loading, but differences appeared in joint coordination.
+Another recent study attributed differences in lifting coordination amongst women to differences in strength [@yehoyakim_relationship_2016], suggesting that strength could also underlies sex differences in lifting coordination.
+However, a large majority of studies have focused on the back and lower limb and the sex-specific contribution of the upper limb's joints during a lifting task remains unknown.
+
+The objective of this study was to investigate how the upper limb joints' contributions differ between men and women performing a lifting task.
+In accordance with biological differences and sex differences in trunk and lower limb coordination previously reported, we hypothesised that women would use a different upper limb joint contribution strategy to perform a lifting task than men.

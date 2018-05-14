@@ -1,0 +1,15 @@
+# Sex differences in upper limb 3D joint contributions during a lifting task
+
+*Abstract*: Sex-related differences in work technique may contribute to increase the risk of injuries among women.
+In lifting tasks, sex differences have been reported for the trunk and lower limb, although women present a higher prevalence of shoulder disorders.
+We investigated sex differences in the upper limb technique during a lifting task.
+Trunk and upper limb kinematics were recorded in 27\ women and 27\ men lifting a box (6 or 12\ kg) between two shelves (hip and eye levels).
+Work technique was quantified through the three-dimensional contribution of each joint to overall box height.
+The glenohumeral joint showed a higher contribution in women with a 6\ kg box and wrist and elbow joints did with a 12\ kg box, compared to men at either 6 or 12\ kg.
+Sex differences occurred systematically above shoulder level. Our results argue for a careful consideration of sex during ergonomic intervention, particularly during overhead task.
+
+*Practitioner Summary*: We investigated the sex-related differences in upper limb technique during lifting tasks. 
+Results highlight a sex-specific kinematic strategy above the shoulder level on the glenohumeral joint and on the wrist and elbow joints.
+To help reduce women’s shoulder disorders in overhead task, ergonomic interventions should account for those differences.
+
+*Keywords*: sex differences; upper limb kinematics; lifting task; joint contribution; work techniques.
